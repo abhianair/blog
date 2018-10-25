@@ -11,15 +11,7 @@
   </head>
 
   <body>
-    <div class="topdiv">
-  <h1>Abhishek Aravindan</h1>
-  <p>Associate Software Engineer</p>
-</div>
-<div class="linkdiv">
-  <%= link_to "About Me", '#' %> /
-  <%= link_to "My Works", '#' %> /
-  <%= link_to "Contact Me", '#' %>
-</div>
+    <%= render "layouts/navbar" %>
     <%= yield %>
   </body>
 </html>

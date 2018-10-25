@@ -5,7 +5,7 @@
 
 .topdiv {
  width: 100%;
- position: fixed;
+ position: relative;
  top:auto;
  text-align:center;
  background: #61a9ce;
@@ -13,10 +13,17 @@
 }
 
 .linkdiv {
-padding-top:150px;
- position:fixed;
+ position:absolute;
  width: 100%;
  text-align:center;
  font-family:ubuntu;
  font-size:25px;
+}
+
+.contentdiv
+{
+	padding-top:100px;
+	position:relative;
+	size:100%;
+	display: block; height: 25px; text-align:center; line-height:25px;
 }
