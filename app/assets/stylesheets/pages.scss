@@ -27,3 +27,14 @@
 	size:100%;
 	display: block; height: 25px; text-align:center; line-height:25px;
 }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #f2f2f2;
+   color: #777575;
+   font-family:ubuntu;
+   text-align: center;
+}
